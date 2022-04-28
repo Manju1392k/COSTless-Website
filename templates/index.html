@@ -59,7 +59,7 @@
        <div class='images'>
 
         <div class="elect">
-            <a href='#'>
+            <a href='{% url 'allitems' %}'>
             <img src="/static/images/electimage.png" alt="">
             <h1>Electronics</h1>
             </a>
@@ -67,13 +67,13 @@
 
         <div class="twoimages">
             <div class="ladies">
-                <a href='#'>
+                <a href='{% url 'allitems' %}'>
                 <img src="/static/images/ladiesimage.png" alt="">
                 <h1>Ladies Fashion</h1>
                 </a>
             </div>
             <div class="men">
-                <a href="#">
+                <a href='{% url 'allitems' %}'>
                 <img src="/static/images/menimage.png" alt="">
                 <h1>Men's Fashion</h1>
                 </a>
@@ -82,6 +82,29 @@
 
        </div>
 
+       <h1>FooterSection</h1>
+
+    </div>
+
+    <div class="footer">
+        <div class="footerlogo">
+            COSTless
+        </div>
+
+        <div>
+            <h1>About</h1>
+            <h3><li>This Hole Website is Developed Only S.Manjunath</li></h3>
+        </div>
+
+        <div>
+            <h1>Payment</h1>
+            <h3><li>Upi</li></h3>
+            <h3><li>CreditCard</li></h3>
+            <h3><li>DebitCard</li></h3>
+            <h3><li>Paytm</li></h3>
+            <h3><li>ALi Babba</li></h3>
+        </div>
+        
     </div>
     
 </body>
