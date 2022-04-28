@@ -6,3 +6,6 @@ def Home(request):
 
 def Allitems(request):
     return render(request, 'allitems.html')
+
+def Acer(request):
+    return render(request, 'nitro.html')

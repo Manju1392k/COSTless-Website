@@ -157,3 +157,43 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
+.mainbox{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+.insideimtem{
+    width:30vw;
+    height:20rem;
+}
+
+.infobox{
+    width:40vw;
+    height:50rem;
+}
+
+.itemmargin{
+    margin-top: 5px;
+}
+
+.flexbtns{
+display: flex;
+}
+
+.greenbtns{
+    padding: 10px;
+    border:none;
+    background-color:rgb(55, 134, 55);
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    border-radius: 6px;
+}
+
+.Description{
+    margin-top: 1.4rem;
+}

@@ -20,5 +20,6 @@ from CostlessApp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.Home, name = 'home'),
-    path('Allitems', views.Allitems, name = 'allitems')
+    path('Allitems', views.Allitems, name = 'allitems'),
+    path('Acer', views.Acer, name = 'Acer')
 ]

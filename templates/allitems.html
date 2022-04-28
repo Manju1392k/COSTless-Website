@@ -1,14 +1,14 @@
 
 {% extends 'base.html' %}
 
-{% block titlehere %}AllItems{% endblock titlehere %}
+{% block titlehere %}Electronics{% endblock titlehere %}
 
 {% block codehere %}
 
 <div class="itemsbox">
 
     <div class="boxOne">
-        <a href="">
+        <a href="{% url 'Acer' %}">
             <h1>AcerLaptop</h1>
             <img src="/static/images/laptop.jpg" alt="" class='imgitem'>
             <div class="flexing">
@@ -48,7 +48,6 @@
         </a>
     </div>
    
-
 </div>
 
 {% endblock codehere %}
