@@ -115,78 +115,86 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    color:white;
+    color: white;
 }
 
-.footerlogo{
+.footerlogo {
     font-size: 4rem;
-    font-weight:bold;
-    color:white;
+    font-weight: bold;
+    color: white;
 }
 
-.itemsbox{
+.itemsbox {
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-between;
     margin-bottom: 5rem;
 }
 
-.boxOne{
-    width:35vw;
-    height:26rem;
-    border:2px solid black;
+.boxOne {
+    width: 35vw;
+    height: 26rem;
+    border: 2px solid black;
     margin-top: 1rem;
     padding: 1rem
 }
 
 .boxOne a {
-    color:black;
+    color: black;
 }
 
-.imgitem{
-    width:30vw;
-    height:20rem;
+.imgitem {
+    width: 30vw;
+    height: 20rem;
     display: flex;
     margin: auto;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-.flexing{
+.flexing {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.mainbox{
+.mainbox {
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-between;
 }
 
-.insideimtem{
-    width:30vw;
-    height:20rem;
+.insideimtem {
+    width: 30vw;
+    height: 20rem;
 }
 
-.infobox{
-    width:40vw;
-    height:50rem;
+.infobox {
+    width: 40vw;
+    height: 50rem;
 }
 
-.itemmargin{
+.itemmargin {
     margin-top: 5px;
 }
 
-.flexbtns{
-display: flex;
+.flexbtns {
+    display: flex;
 }
 
-.greenbtns{
+.imageandbox {
+    display: flex;
+    width: 40vw;
+    height: 22rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.greenbtns {
     padding: 10px;
-    border:none;
-    background-color:rgb(55, 134, 55);
-    color:white;
+    border: none;
+    background-color: rgb(55, 134, 55);
+    color: white;
     font-weight: bold;
     cursor: pointer;
     margin-top: 1rem;
@@ -194,6 +202,171 @@ display: flex;
     border-radius: 6px;
 }
 
-.Description{
+.Description {
     margin-top: 1.4rem;
+}
+
+.mobilenavbar {
+    display: none;
+}
+
+.mobilelogo {
+    display: none;
+}
+
+.mobileinputs {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+.mobicons {
+    display: none;
+}
+
+.menuopenedbar {
+    display: none;
+}
+
+/* media quries */
+@media screen and (max-width: 1030px) {
+
+    .middlebox {
+        margin: 0px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .mainimgae {
+        width: 100vw;
+    }
+
+    .mainimg {
+        width: 80vw;
+    }
+
+    .buttons {
+        display: none;
+    }
+
+    .images {
+        grid-template-columns: auto;
+        height: 80rem;
+        width: 100vw;
+        justify-content: space-around;
+
+    }
+
+    .elect img, .ladies img, .men img {
+        width: 80vw;
+    }
+
+    .footer {
+        height: 60rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .itemsbox {
+        grid-template-columns: auto;
+        justify-content: space-around;
+    }
+
+    .boxOne {
+        width: 80vw;
+        height: 21rem;
+    }
+
+    .imgitem {
+        width: 70vw;
+        height: 15rem;
+    }
+
+    .mainbox {
+        grid-template-columns: auto;
+    }
+
+    .insideimtem {
+        width: 70vw;
+        height: 15rem;
+    }
+
+    .imageandbox {
+        width: 100vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .infobox {
+        width: 100vw;
+    }
+
+    .mobilenavbar {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+        height: 8rem;
+        border-bottom: 2px solid black;
+    }
+
+    .mobilelogo {
+        display: flex;
+        font-size: 2rem;
+    }
+
+    .mobileinputs {
+        display: flex;
+        align-items: center;
+    }
+
+    .mobsearch {
+        display: flex;
+        width: 40vw;
+        padding: 10px;
+        border-radius: 3px;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .mobicons {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .menuopenedbar {
+        display: grid;
+        position: fixed;
+        background-color: black;
+        color: white;
+        width: 0vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .menubox {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 5rem;
+        width: 100vw;
+    }
+
+    .mobilinks a {
+        display: grid;
+        color: white;
+        font-weight: bold;
+        margin-bottom: 1rem;
+        margin-left: 2rem;
+    }
+
 }
